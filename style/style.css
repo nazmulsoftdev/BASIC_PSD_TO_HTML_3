@@ -1,0 +1,244 @@
+*{margin: 0px; padding: 0px;}
+
+a{
+text-decoration: none;
+}
+
+/* Wrapper */
+
+.wrapper1{
+ width: 100%;   
+ background-color: #333333;
+}
+
+.wrapperContent1{
+    width: 960px;
+  margin: auto;  
+}
+
+/* header style -----*/
+
+header{
+width: 100%;
+padding: 25px 0px;   
+overflow: hidden; 
+}
+
+/* logo style --------*/
+
+header .logoSection{
+ float: left;   
+ display: inline;
+ color: #C0BAB6;
+}
+
+/* nav style -------*/
+
+header .nav{
+  float: right;  
+  background-color: #232323;
+  padding: 20px 30px;
+}
+
+header .nav a{
+  color: #C0BAB6;  
+  padding: 0px 10px;
+}
+
+header .nav a:hover{
+ color: #FF9900;   
+}
+
+
+/* Section style ---------*/
+.wrapper2{
+    width: 100%;   
+    background-color: #FFFFFF;
+   }
+ 
+.wrapperContent2{
+    width: 960px;
+    margin: auto;  
+}  
+.banner{
+  width: 960px;
+  height: 360px;  
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* user style -------*/
+
+.userContent{
+display: flex;
+justify-content: center;  
+ margin-top: 20px;
+}
+
+.userContent .user1{
+    padding: 20px;
+}
+.userContent .userDis{
+  display: flex;  
+   flex-grow: 1;
+   padding: 10px;
+}
+
+.userContent .userDis h5{
+  margin-top: 5px;  
+  margin-left: 5px;
+  color: #C0BAB6;
+}
+
+.readMore{
+ float: right;
+ color: #FF9900;  
+ margin-top: 10px; 
+}
+.userTitle  p{    
+margin-top: 5px;
+text-align: justify;
+color: #C0BAB6;
+}
+
+
+/* horizontal*/
+.horizontalBar{
+ margin-top: 20px;   
+ color: #C0BAB6;
+}
+
+
+
+
+/* Work Section ---------*/
+
+.wrapper3{
+    width: 100%;   
+    background-color: #FFFFFF;
+   }
+ 
+.wrapperContent3{
+    width: 960px;
+    margin: auto;  
+} 
+
+.workWrap{
+    margin-top: 20px;
+}
+
+.workSection{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.workSectionImg img{
+ margin: 10px;   
+}
+
+.viewAllreview .viewRwv{
+ float: right;
+ color: #FFB200; 
+ margin-right: 30px;  
+ margin-top: 10px;
+}
+
+.TemRed{
+  float: right;
+  color: #FFB200;  
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+/* Templates style ------- */
+
+
+.wrapper4{
+    width: 100%;   
+    background-color: #FFFFFF;
+   }
+ 
+.wrapperContent4{
+    width: 960px;
+    margin: auto;  
+} 
+
+
+.TemplateArea{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.Team1{
+ display: flex;   
+}
+
+.Template1Text{
+ margin-left: 10px;  
+ color: #979797; 
+}
+
+.Template1{
+  flex: 7;
+}
+
+.Template2{
+ flex: 3;   
+}
+
+.Template2 .TempalteList h3{
+ color: #979797;
+}
+
+.TempalteList ul{
+ list-style: none;   
+}
+
+ .TempalteList ul li{ 
+  margin-left: 20px;
+  line-height: 1.7em;
+  border-bottom: 1px dotted #666666;
+ }
+
+ .TempalteList ul li:last-child{
+     border-bottom: none;
+ }
+
+.TempalteList ul li a{
+    color: #9797A4;
+
+}
+
+.TempalteList ul li a:hover{
+    color: #FFB200; 
+}
+
+
+/* Footer style */
+
+.wrapper5{
+    width: 100%;   
+    background-color: #232323;
+   }
+ 
+.wrapperContent5{
+    width: 960px;
+    margin: auto;  
+} 
+
+.footerContent{
+    padding: 30px 0px;
+    margin-top: 10px;
+}
+
+.footerContent .footeText1{
+  float: left;  
+  color: #919191;
+}
+
+.footerContent .footeText2{
+  float: right;  
+  color: #919191;
+}
